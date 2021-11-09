@@ -140,9 +140,5 @@ dmypy.json
 # MacOS
 .DS_Store
 
-# Poetry files
-pyproject.toml
-poetry.lock
-
 # Other files
 .readthedocs.yml
