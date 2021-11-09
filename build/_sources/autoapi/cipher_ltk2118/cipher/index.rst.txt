@@ -1,0 +1,43 @@
+:py:mod:`cipher_ltk2118.cipher`
+===============================
+
+.. py:module:: cipher_ltk2118.cipher
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_ltk2118.cipher.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Uses a basic shift (Caesar) cipher to encrypt text input.
+
+   :param text: Text to be encrypted
+   :type text: str
+   :param shift: How many positions down the alphabet should the text be shifted?
+   :type shift: int
+   :param encrypt: Default: True
+                   If true, cipher shifts text positionally down the alphabet
+                   If false, cipher shifts text positionally up the alphabet
+   :type encrypt: bool
+
+   :returns: **new_text** -- Encrypted (or decrypted) text
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> cipher("I have the best words", 3)
+   'L kdyh wkh ehvw zrugv'
+   >>> cipher("L kdyh wkh ehvw zrugv", 3, encrypt=False)
+   'I have the best words'
+
+
