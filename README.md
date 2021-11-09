@@ -2,6 +2,11 @@
 
 Python package that uses a cipher to encrypt and decrypt some stuff.
 
+## Documentation
+
+- [Documentation](https://cipher-kearney-liamtay.readthedocs.io/en/latest/)
+- [Read the Docs Project Page](https://readthedocs.org/projects/cipher-kearney-liamtay/)
+
 ## Installation
 
 ```bash
