@@ -1,5 +1,29 @@
 def cipher(text, shift, encrypt=True):
-    """Cipher function that we want to test"""
+    """Uses a basic shift (Caesar) cipher to encrypt text input.
+
+    Parameters
+    ----------
+    text : str
+        Text to be encrypted
+    shift : int
+        How many positions down the alphabet should the text be shifted?
+    encrypt: bool
+        Default: True
+        If true, cipher shifts text positionally down the alphabet
+        If false, cipher shifts text positionally up the alphabet
+
+    Returns
+    -------
+    new_text : str
+        Encrypted (or decrypted) text
+
+    Examples
+    --------
+    >>> cipher("I have the best words", 3)
+    'L kdyh wkh ehvw zrugv'
+    >>> cipher("L kdyh wkh ehvw zrugv", 3, encrypt=False)
+    'I have the best words'
+    """
     assert isinstance(shift, (int, float)) #part e
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
