@@ -15,7 +15,13 @@ $ pip install cipher_ltk2118
 
 ## Usage
 
-- TODO
+```python
+from cipher_ltk2118.cipher_func import cipher
+cipher("Tom Hanks is great", 5)
+>>> 'Ytr Mfspx nx lwjfy'
+```
+
+## Usage
 
 ## Contributing
 
